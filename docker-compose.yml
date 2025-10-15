@@ -3,8 +3,8 @@ version: '3.9'
 services:
   app:
     build: .
-    image: ts-service-template:local
-    container_name: ts-service-template
+    image: linkforge:local
+    container_name: linkforge
     environment:
       NODE_ENV: development
       PORT: 3000

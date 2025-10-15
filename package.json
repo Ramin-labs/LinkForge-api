@@ -1,5 +1,5 @@
 {
-  "name": "ts-service-template",
+  "name": "linkforge",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "test:watch": "pnpm build && vitest --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ramin Khalili",
   "license": "ISC",
   "packageManager": "pnpm@10.18.2",
   "devDependencies": {
