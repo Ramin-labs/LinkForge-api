@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "pnpm build && vitest run",
+    "test": "pnpm build && vitest run && pnpm lint",
     "prepare": "husky",
     "dev": "ts-node src/main.ts",
-    "build": "tsc -p tsconfig.json",
+    "build": "prisma generate && tsc -p tsconfig.json",
     "start": "node dist/main.js",
     "lint": "eslint . --max-warnings=0",
     "test:watch": "pnpm build && vitest --watch",
